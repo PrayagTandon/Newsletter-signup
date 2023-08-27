@@ -1,0 +1,34 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "building a newsletter signup landing page",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.comp.css -o css/style.prefix.css",
+    "compress:css": "sass css/style.prefix.css css/style.css --style=compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrayagTandon/Newsletter-signup.git"
+  },
+  "author": "prayag tandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrayagTandon/Newsletter-signup/issues"
+  },
+  "homepage": "https://github.com/PrayagTandon/Newsletter-signup#readme",
+  "dependencies": {
+    "npx": "^10.2.2",
+    "auto-prefixer": "^0.4.2",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.21",
+    "sass": "^1.60.0"
+  }
+}
