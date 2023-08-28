@@ -1,0 +1,8 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.main-box {
+    width: 40rem;
+    height: 40rem;
+    background-color: $color-white;
+}
