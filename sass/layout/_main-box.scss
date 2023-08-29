@@ -1,14 +1,24 @@
 @use "../abstracts/" as *;
 @use "../base/" as *;
 
-.main-box {
-    width: 60%;
-    padding: 1.8rem;
-    // height: 40rem;
-    background-color: $color-white;
+.main {
 
-    display: flex;
-    align-items: center;
-    gap: 3.2rem;
-    border-radius: $border-radius--md;
+    &-box {
+
+        width: 60%;
+        padding: 1.8rem;
+        // height: 40rem;
+        background-color: $color-white;
+
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+        border-radius: $border-radius--md;
+        box-shadow: $box-shadow--lg;
+    }
+
+    &--text-box,
+    &--img-box {
+        flex: 0 1 50%;
+    }
 }

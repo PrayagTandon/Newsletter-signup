@@ -1,6 +1,7 @@
 /* COLOR VARIABLES */
 /* NEUTRAL COLORS */
 /* BORDER RADIUS */
+/* BOX SHADOW */
 * {
   padding: 0;
   margin: 0;
@@ -23,6 +24,10 @@ body {
   align-items: center;
   gap: 3.2rem;
   border-radius: 12px;
+  box-shadow: 0rem 1rem 2.4rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+.main--text-box, .main--img-box {
+  flex: 0 1 50%;
 }
 
 .main-container {
