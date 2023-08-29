@@ -1,5 +1,6 @@
 /* COLOR VARIABLES */
 /* NEUTRAL COLORS */
+/* BORDER RADIUS */
 * {
   padding: 0;
   margin: 0;
@@ -15,13 +16,13 @@ body {
 }
 
 .main-box {
-  width: 70%;
+  width: 60%;
   padding: 1.8rem;
-  height: 40rem;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   gap: 3.2rem;
+  border-radius: 12px;
 }
 
 .main-container {
