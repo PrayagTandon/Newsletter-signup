@@ -16,18 +16,26 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.heading--primary {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
 .main-box {
-  width: 60%;
   padding: 1.8rem;
   background-color: #ffffff;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 3.2rem;
   border-radius: 12px;
   box-shadow: 0rem 1rem 2.4rem 0.4rem rgba(0, 0, 0, 0.8);
 }
 .main--text-box, .main--img-box {
   flex: 0 1 50%;
+}
+.main--text-box {
+  margin-block: 4.8rem;
+  padding: 2rem;
 }
 
 .main-container {
