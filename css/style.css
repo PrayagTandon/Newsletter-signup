@@ -27,6 +27,19 @@ body {
   list-style: none;
 }
 
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.list-item:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.item--text {
+  font-size: 1.4rem;
+}
+
 .text-description {
   font-size: 1.6rem;
   line-height: 1.6;
