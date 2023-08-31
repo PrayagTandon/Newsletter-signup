@@ -23,6 +23,12 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.btn-submit {
+  display: inline-block;
+  width: 80%;
+  border: none;
+}
+
 .input-field {
   display: flex;
   flex-direction: column;

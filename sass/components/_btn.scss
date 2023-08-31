@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.btn {
+
+    &-submit {
+        display: inline-block;
+        width: 80%;
+        border: none;
+    }
+}
