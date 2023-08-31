@@ -1,0 +1,19 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+// .email {
+
+//     &-label {
+
+//     }
+
+//     &-input {
+
+//     }
+// }
