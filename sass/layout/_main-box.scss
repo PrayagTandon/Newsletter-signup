@@ -1,20 +1,27 @@
 @use "../abstracts/" as *;
 @use "../base/" as *;
 
-.main-box {
-    width: 60%;
-    background-color: $color-white;
-    padding: 2rem;
-    border-radius: $border-radius--md;
-    box-shadow: $box-shadow--lg;
+.main {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 2.4rem;
-}
+    &-box {
+        width: 60%;
+        background-color: $color-white;
+        padding: 2rem;
+        border-radius: $border-radius--md;
+        box-shadow: $box-shadow--lg;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 2.4rem;
+    }
 
-.main--text-box {
-    margin-block: 3.2rem;
-    padding: 2.4rem;
+    &--text-box {
+        margin-block: 3.2rem;
+        padding: 2.4rem;
+    }
+
+    &--img-box {
+        // background-color: $color-charcoal-grey--dark;
+        height: 100%;
+    }
 }
