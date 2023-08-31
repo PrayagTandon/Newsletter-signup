@@ -4,7 +4,8 @@
 .input-field {
     display: flex;
     flex-direction: column;
-    gap: .8rem;
+    gap: 1rem;
+    margin-bottom: $margin-bottom--lg;
 }
 
 .email {
@@ -22,8 +23,14 @@
     &-input {
         width: 80%;
         border: none;
-        outline: 1px solid $color-grey--light;
+        outline: 1px solid $color-grey;
         padding: 1.6rem 1.2rem;
         border-radius: $border-radius--md;
+
+        &::placeholder {
+            font-size: 1.4rem;
+            color: $color-grey;
+            font-weight: 500;
+        }
     }
 }

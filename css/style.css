@@ -26,7 +26,8 @@ body {
 .input-field {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1rem;
+  margin-bottom: 3rem;
 }
 
 .email-label, .email-input {
@@ -39,9 +40,14 @@ body {
 .email-input {
   width: 80%;
   border: none;
-  outline: 1px solid #9d9faa;
+  outline: 1px solid #9294a0;
   padding: 1.6rem 1.2rem;
   border-radius: 12px;
+}
+.email-input::placeholder {
+  font-size: 1.4rem;
+  color: #9294a0;
+  font-weight: 500;
 }
 
 .product-list {
