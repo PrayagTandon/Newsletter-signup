@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-bottom: $margin-bottom--md;
+    margin-bottom: $margin-bottom--lg;
 }
 
 .email {
@@ -31,6 +31,12 @@
             font-size: 1.4rem;
             color: $color-grey;
             font-weight: 500;
+        }
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            outline: 2px solid rgba($color-secondary, .8);
         }
     }
 }

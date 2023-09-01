@@ -28,18 +28,27 @@ body {
   width: 80%;
   border: none;
   padding: 1.6rem 1.2rem;
-  background-color: #242742;
+  background-image: linear-gradient(to right, rgba(32, 35, 59, 0.8), rgba(32, 35, 59, 0.8));
   color: #ffffff;
   border-radius: 12px;
   font-size: 1.4rem;
   font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-submit:hover, .btn-submit:active {
+  cursor: pointer;
+  background-image: linear-gradient(to right, rgba(229, 75, 109, 0.8), #e6584e);
+  transform: translateY(-0.4rem);
+}
+.btn-submit:active {
+  transform: translateY(-0.2rem);
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3rem;
 }
 
 .email-label, .email-input {
@@ -60,6 +69,10 @@ body {
   font-size: 1.4rem;
   color: #9294a0;
   font-weight: 500;
+}
+.email-input:hover, .email-input:focus {
+  cursor: pointer;
+  outline: 2px solid rgba(254, 83, 121, 0.8);
 }
 
 .product-list {
