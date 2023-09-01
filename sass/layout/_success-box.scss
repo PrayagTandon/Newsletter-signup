@@ -1,0 +1,8 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.success-box {
+    background-color: $color-white;
+    border-radius: $border-radius--md;
+    padding: 2rem;
+}

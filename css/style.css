@@ -24,7 +24,7 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .btn-submit {
@@ -135,6 +135,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.success-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
