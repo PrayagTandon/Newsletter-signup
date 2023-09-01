@@ -36,7 +36,12 @@
         &:hover,
         &:focus {
             cursor: pointer;
-            outline: 2px solid rgba($color-secondary, .8);
+            background-color: $color-ivory;
+            outline: 2px solid rgba($color-charcoal-grey, .8);
+        }
+
+        &:invalid {
+            outline: 2px solid $color-red;
         }
     }
 }
