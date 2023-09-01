@@ -2,7 +2,8 @@
 @use "../base/" as *;
 
 .success-box {
+    width: 30%;
     background-color: $color-white;
     border-radius: $border-radius--md;
-    padding: 2rem;
+    padding: 4rem 6rem;
 }

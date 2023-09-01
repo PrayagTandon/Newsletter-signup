@@ -1,0 +1,28 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.success {
+
+    &-icon {
+        width: 6rem;
+        height: 6rem;
+
+        &-box {
+            margin-bottom: $margin-bottom--lg;
+        }
+    }
+
+    &-text {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.4;
+        color: $color-charcoal-grey--light;
+        margin-bottom: $margin-bottom--lg;
+    }
+}
+
+.input-email {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $color-dark-grey--darker;
+}
