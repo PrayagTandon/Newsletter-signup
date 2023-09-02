@@ -12,6 +12,11 @@
 html {
   font-size: 62.5%;
 }
+@media (max-width: 89em) {
+  html {
+    font-size: 56.25%;
+  }
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -146,6 +151,12 @@ body {
   justify-items: center;
   align-items: center;
   gap: 2.4rem;
+}
+@media (max-width: 89em) {
+  .main-box {
+    width: 70%;
+    gap: 1.2rem;
+  }
 }
 .main--text-box {
   margin-block: 3.2rem;
