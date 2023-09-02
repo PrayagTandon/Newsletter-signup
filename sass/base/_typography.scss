@@ -7,6 +7,10 @@
         font-size: 5.4rem;
         font-weight: 700;
         margin-bottom: $margin-bottom--md;
+
+        @include respond-to('xl') {
+            font-size: 4.8rem;
+        }
     }
 
     &--secondary {

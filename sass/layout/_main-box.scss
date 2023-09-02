@@ -24,6 +24,10 @@
     &--text-box {
         margin-block: 3.2rem;
         padding: 2.4rem;
+
+        @include respond-to('xl') {
+            width: 60%;
+        }
     }
 
     &--img-box {
