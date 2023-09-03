@@ -12,6 +12,10 @@ html {
     @include respond-to('2xl') {
         font-size: 56.25%;
     }
+
+    @include respond-to('lg') {
+        font-size: 50%;
+    }
 }
 
 body {
