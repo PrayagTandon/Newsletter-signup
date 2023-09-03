@@ -167,11 +167,6 @@ body {
   margin-block: 3.2rem;
   padding: 2.4rem;
 }
-@media (max-width: 72em) {
-  .main--text-box {
-    width: 60%;
-  }
-}
 .main--img-box {
   height: 100%;
 }
