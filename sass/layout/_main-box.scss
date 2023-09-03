@@ -43,7 +43,7 @@
     }
 
     &--img-box {
-        // background-color: $color-charcoal-grey--dark;
+        background-color: $color-charcoal-grey--dark;
         height: 100%;
 
         @include respond-to('md-2') {

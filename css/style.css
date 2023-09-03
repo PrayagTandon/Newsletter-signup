@@ -197,6 +197,7 @@ body {
   padding: 2.4rem;
 }
 .main--img-box {
+  background-color: #313246;
   height: 100%;
 }
 @media (max-width: 48em) {
