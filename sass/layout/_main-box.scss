@@ -35,8 +35,13 @@
             grid-template-rows: 1fr 1.2fr;
             grid-template-columns: auto;
             justify-items: stretch;
-            align-items: start;
+            align-items: stretch;
             padding: 0;
+        }
+
+        @include respond-to('md-1') {
+            width: 90%;
+            grid-template-rows: .8fr 1.3fr;
         }
     }
 
