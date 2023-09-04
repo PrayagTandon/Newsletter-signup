@@ -11,6 +11,10 @@
         @include respond-to('xl') {
             font-size: 4.8rem;
         }
+
+        @include respond-to('sm-1') {
+            font-size: 4.2rem;
+        }
     }
 
     &--secondary {
