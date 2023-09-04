@@ -31,4 +31,11 @@
             transform: translateY(-.2rem);
         }
     }
+
+    &--success {
+        @include respond-to('md-2') {
+            width: 95%;
+            margin-top: 12rem;
+        }
+    }
 }
