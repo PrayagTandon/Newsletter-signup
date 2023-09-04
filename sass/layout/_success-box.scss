@@ -18,7 +18,14 @@
 
     @include respond-to('md-2') {
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+        width: 55%;
+    }
+
+    @include respond-to('md-1') {
+        width: 65%;
+    }
+
+    @include respond-to('sm-2') {
+        width: 75%;
     }
 }
