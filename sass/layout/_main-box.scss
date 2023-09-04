@@ -32,18 +32,28 @@
 
         @include respond-to('md-2') {
             width: 80%;
-            grid-template-rows: 1fr 1fr;
-            grid-template-columns: auto 1fr;
+            grid-template-rows: 1fr 1.2fr;
+            grid-template-columns: auto;
+            justify-items: stretch;
+            align-items: start;
+            padding: 0;
         }
     }
 
     &--text-box {
         margin-block: 3.2rem;
         padding: 2.4rem;
+
+        @include respond-to ('md-2') {
+            margin-block: 0;
+            padding: 4rem;
+            padding-top: 2rem;
+            height: fit-content;
+        }
     }
 
     &--img-box {
-        background-color: $color-charcoal-grey--dark;
+        // background-color: $color-charcoal-grey--dark;
         height: 100%;
 
         @include respond-to('md-2') {
@@ -51,4 +61,8 @@
             grid-column: 1/-1;
         }
     }
+}
+
+.image--mobile {
+    width: 100%;
 }
