@@ -24,6 +24,10 @@ html {
     @include respond-to('md-2') {
         font-size: 62.5%;
     }
+
+    @include respond-to('sm-2') {
+        font-size: 50%;
+    }
 }
 
 body {

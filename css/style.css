@@ -32,6 +32,11 @@ html {
     font-size: 62.5%;
   }
 }
+@media (max-width: 28em) {
+  html {
+    font-size: 50%;
+  }
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -70,6 +75,11 @@ body {
   font-weight: 500;
   transition: all 0.3s ease;
 }
+@media (max-width: 28em) {
+  .btn-submit {
+    width: 95%;
+  }
+}
 .btn-submit:hover, .btn-submit:active {
   cursor: pointer;
   background-image: linear-gradient(to right, rgba(229, 75, 109, 0.8), #e6584e);
@@ -99,6 +109,11 @@ body {
   outline: 1px solid #9294a0;
   padding: 1.6rem 1.2rem;
   border-radius: 12px;
+}
+@media (max-width: 28em) {
+  .email-input {
+    width: 95%;
+  }
 }
 .email-input::placeholder {
   font-size: 1.4rem;

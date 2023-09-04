@@ -27,6 +27,10 @@
         padding: 1.6rem 1.2rem;
         border-radius: $border-radius--md;
 
+        @include respond-to('sm-2') {
+            width: 95%;
+        }
+
         &::placeholder {
             font-size: 1.4rem;
             color: $color-grey;

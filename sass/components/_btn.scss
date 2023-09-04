@@ -15,6 +15,10 @@
         font-weight: 500;
         transition: all 0.3s ease;
 
+        @include respond-to('sm-2') {
+            width: 95%;
+        }
+
         &:hover,
         &:active {
             cursor: pointer;
