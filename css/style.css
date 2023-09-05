@@ -156,6 +156,10 @@ body {
   opacity: 0;
 }
 
+.email-input:invalid + .email-label .email-label--invalid-text {
+  opacity: 1;
+}
+
 .product-list {
   list-style: none;
   margin-bottom: 3rem;
