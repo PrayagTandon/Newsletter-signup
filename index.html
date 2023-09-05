@@ -15,7 +15,7 @@
   </head>
   <body>
     <article class="main-container">
-      <main class="main-box hidden">
+      <main class="main-box">
         <section class="main--text-box">
           <h1 class="heading--primary">Stay Updated!</h1>
 
@@ -101,6 +101,7 @@
               class="email-input"
               placeholder="email@company.com"
             />
+            <p class="invalid-email-text">Valid email required</p>
           </div>
 
           <div class="btn-box">
@@ -115,18 +116,18 @@
             <img
               src="assets/images/illustration-sign-up-desktop.svg"
               alt="Image"
-              class="img--desktop hidden"
+              class="img--desktop"
             />
             <img
               src="assets/images/illustration-sign-up-mobile.svg"
               alt="Image"
-              class="image--mobile"
+              class="image--mobile hidden"
             />
           </div>
         </section>
       </main>
 
-      <aside class="success-box">
+      <aside class="success-box hidden">
         <div class="success-icon-box">
           <img
             src="assets/images/icon-success.svg"
@@ -150,5 +151,7 @@
         </div>
       </aside>
     </article>
+
+    <script src="JS/script.js"></script>
   </body>
 </html>

@@ -6,6 +6,8 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: $margin-bottom--lg;
+
+    position: relative;
 }
 
 .email {
@@ -46,6 +48,17 @@
 
         &:invalid {
             outline: 2px solid $color-red;
+            background-color: $color-ivory;
         }
     }
+}
+
+.invalid-email-text {
+    color: $color-red;
+    font-size: 1rem;
+    font-weight: 500;
+
+    position: absolute;
+    top: 0;
+    right: 20%;
 }

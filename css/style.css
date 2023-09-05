@@ -105,6 +105,7 @@ body {
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 3rem;
+  position: relative;
 }
 
 .email-label, .email-input {
@@ -138,6 +139,16 @@ body {
 }
 .email-input:invalid {
   outline: 2px solid #ff0000;
+  background-color: #fffff0;
+}
+
+.invalid-email-text {
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  right: 20%;
 }
 
 .product-list {
