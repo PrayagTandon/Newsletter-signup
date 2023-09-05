@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: $margin-bottom--lg;
+    margin-top: 4rem;
 
     position: relative;
 }
@@ -53,13 +54,21 @@
     }
 }
 
-.invalid-email-text {
-    color: $color-red;
-    font-size: 1rem;
-    font-weight: 500;
+.email-label {
 
-    position: absolute;
-    top: 0;
-    right: 20%;
-    opacity: 0;
+    &--text,
+    &--invalid-text {
+        position: absolute;
+        top: -40%;
+    }
+
+    &--text {
+        left: 0;
+    }
+
+    &--invalid-text {
+        right: 20%;
+        color: $color-red;
+        opacity: 0;
+    }
 }

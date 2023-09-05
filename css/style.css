@@ -105,6 +105,7 @@ body {
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 3rem;
+  margin-top: 4rem;
   position: relative;
 }
 
@@ -142,13 +143,16 @@ body {
   background-color: #fffff0;
 }
 
-.invalid-email-text {
-  color: #ff0000;
-  font-size: 1rem;
-  font-weight: 500;
+.email-label--text, .email-label--invalid-text {
   position: absolute;
-  top: 0;
+  top: -40%;
+}
+.email-label--text {
+  left: 0;
+}
+.email-label--invalid-text {
   right: 20%;
+  color: #ff0000;
   opacity: 0;
 }
 
