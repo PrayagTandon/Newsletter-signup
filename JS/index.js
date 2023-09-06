@@ -9,6 +9,8 @@ const successBtn = document.querySelector('.btn--success');
 const emailInputText = document.querySelector('#email');
 
 // APPLYING LOGIC
+
+// SUBMIT BTN LISTENER
 submitBtn.addEventListener('click', function (e) {
     e.preventDefault();
 
@@ -32,10 +34,11 @@ submitBtn.addEventListener('click', function (e) {
     }
 });
 
+
+// SUCCESS BTN LISTENER
 successBtn.addEventListener('click', function (e) {
     e.preventDefault();
 
     mainBox.classList.toggle('hidden');
     successBox.classList.toggle('hidden');
-    emailValue = '';
-})
+});
