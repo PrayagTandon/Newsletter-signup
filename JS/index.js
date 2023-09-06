@@ -7,6 +7,7 @@ const submitBtn = document.querySelector('.btn-submit');
 const successBtn = document.querySelector('.btn--success');
 
 const emailInputText = document.querySelector('#email');
+const successEmailText = document.querySelector('.input-email');
 
 // APPLYING LOGIC
 
@@ -31,6 +32,7 @@ submitBtn.addEventListener('click', function (e) {
     if (submit) {
         mainBox.classList.toggle('hidden');
         successBox.classList.toggle('hidden');
+        successEmailText.textContent = emailValue;
     }
 });
 
@@ -38,7 +40,7 @@ submitBtn.addEventListener('click', function (e) {
 // SUCCESS BTN LISTENER
 successBtn.addEventListener('click', function (e) {
     e.preventDefault();
-
     mainBox.classList.toggle('hidden');
     successBox.classList.toggle('hidden');
+
 });
