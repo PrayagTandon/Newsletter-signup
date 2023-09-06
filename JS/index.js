@@ -6,23 +6,36 @@ const successBox = document.querySelector('.success-box');
 const submitBtn = document.querySelector('.btn-submit');
 const successBtn = document.querySelector('.btn--success');
 
-const emailInputText = document.querySelector('.email-input');
+const emailInputText = document.querySelector('#email');
 
 // APPLYING LOGIC
-submitBtn.addEventListener('click', function () {
+submitBtn.addEventListener('click', function (e) {
+    e.preventDefault();
 
+    let submit = false;
+    const emailValue = emailInputText.value.trim();
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+/;
 
-    if (emailInputText === '') {
-        alert('Please enter an E-mail Address!');
+    if (emailValue === "") {
+        alert('Please enter an E-mail to receive exciting News!')
+    }
+    else if (!emailPattern.test(emailValue)) {
+        alert('Please enter a Valid E-mail!');
     }
     else {
+        submit = true;
+    }
+
+    if (submit) {
         mainBox.classList.toggle('hidden');
         successBox.classList.toggle('hidden');
     }
+});
 
-})
+successBtn.addEventListener('click', function (e) {
+    e.preventDefault();
 
-successBtn.addEventListener('click', function () {
     mainBox.classList.toggle('hidden');
     successBox.classList.toggle('hidden');
+    emailValue = '';
 })
