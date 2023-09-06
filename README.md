@@ -8,7 +8,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -39,9 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution on Github](https://github.com/PrayagTandon/Newsletter-signup)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Live site](https://newsletter-signup-prayag.netlify.app/)
 
 ### Built with
 
